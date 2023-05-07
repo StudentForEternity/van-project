@@ -4,7 +4,8 @@
 
 html,
 body {
-  margin: 0;
+  max-width: 700px;
+  margin: 0 auto;
   padding: 0;
   background-color: #fff7ed;
   font-family: "Inter", sans-serif;
@@ -227,6 +228,9 @@ footer {
   color: #161616;
   text-decoration: none;
 }
+.van-tile:hover {
+  opacity: 0.8;
+}
 
 .van-tile img {
   max-width: 100%;
@@ -387,6 +391,9 @@ i[class*="van-type-"] {
   height: 70px;
   border-radius: 5px;
   margin-right: 17px;
+}
+.host-van-single:hover {
+  background-color: #c9c4c4;
 }
 
 .host-van-info h3 {
